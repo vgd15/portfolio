@@ -38,7 +38,7 @@ function About(){
                             </ul>
                         </div>
                         <p className="">
-                        Sou estudante na área de tecnologia, cada vez mais apaixonada pela programação.
+                        Formada em Tecnologia da Informação, apaixonada pela programação.
 
                         Me considero uma pessoa focada, determinada, e uma das minhas maiores qualidades é meu autocontrole emocional.
 
@@ -48,7 +48,7 @@ function About(){
 
                         De março a agosto de 2023 trabalhei com manutenção, análise e desenvolvimento de ChatBot.
 
-                        Atualmente trabalho como desenvolvedora Front-End.
+                        De 2023 até atualmente trabalho como desenvolvedora Front-End na empresa Nairuz.
                         </p>
                     </div>
                     

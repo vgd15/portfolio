@@ -70,7 +70,7 @@ return(
          <div className="row g-0">
             <div className="col-md-5 ">
                <h3 className="card-title">08/2022 - 06/2025</h3>
-               <p>Sintuação: Em andamento</p>
+               <p>Sintuação: Concluído</p>
                <p>Universidade Virtual do Estado de São Paulo</p>
                <p>Bacharelado</p>
                <p>Piracicaba-Sp</p>
@@ -115,7 +115,7 @@ return(
             <div className="idiomas col-md-12 d-flex justify-content-center align-items-center flex-column">
                <h3>Idiomas</h3>
                <div className="idiomas-list">            
-                  <p><i className="fa-solid fa-square"/> Inglês - Básico (curso em andamento) </p>
+                  <p><i className="fa-solid fa-square"/> Inglês - Intermediário (curso em andamento) </p>
                </div>
             </div>
          </div>

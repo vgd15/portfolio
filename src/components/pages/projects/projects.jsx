@@ -26,7 +26,9 @@ import TheBlushLab from '../../../img/the-blush-lab.png';
 import ClinicaDosCapacetes from '../../../img/clinica-dos-capacetes.png';
 import RDX from '../../../img/rdx.png';
 import GHCI from '../../../img/GHCI.png';
-import Stog from '../../../img/stog.png';  
+import Stog from '../../../img/stog.png';
+import NatusFarma from '../../../img/natus.png';
+import AbcEmpilhadeiras from '../../../img/abc2.png';   
 
 
 function Projects(){
@@ -37,6 +39,18 @@ function Projects(){
                     <div className="card-box d-flex justify-content-center align-items-center flex-column">
                     <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
                         <h3>Projetos Profissionais</h3>
+                        <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">ABC Empilhadeiras</h3>
+                                <p>Com tecnologias como PHP, jQuery e  Bootstrap, criamos uma solução robusta e funcional na plataforma wordpress. Desenvolvido com um tema próprio e código limpo com integração de Ajax para filtros dinâmicos, garantindo uma experiência eficiente e moderna.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={AbcEmpilhadeiras} alt="Imagem projeto ABC Empilhadeiras" className="img-projeto" />
+                                    <a href="https://abcempilhadeiras.com.br" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
                         <div className="card">
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">
@@ -61,6 +75,19 @@ function Projects(){
                                 </div>
                             </div>
                           </div>
+                        <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">Blog Natus Farma</h3>
+                                <p>Este projeto foi desenvolvido para a empresa Natus Farma, especializada no ramo de farmácia, utilizando a plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Swiper Carrossel e Flexbox, para criar uma solução robusta e funcional.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={NatusFarma} alt="Imagem projeto NatusFarma" className="img-projeto" />
+                                    <a href="https://blog.natusfarma.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
+ 
                         <div className="card">
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">
