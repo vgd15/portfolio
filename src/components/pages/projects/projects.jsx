@@ -29,7 +29,7 @@ import GHCI from '../../../img/GHCI.png';
 import Stog from '../../../img/stog.png';
 import NatusFarma from '../../../img/natus.png';
 import AbcEmpilhadeiras from '../../../img/abc2.png';   
-
+import Celdom from '../../../img/celdom.png'; 
 
 function Projects(){
     return(
@@ -39,6 +39,18 @@ function Projects(){
                     <div className="card-box d-flex justify-content-center align-items-center flex-column">
                     <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
                         <h3>Projetos Profissionais</h3>
+                        <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">Celdom</h3>
+                                <p>Projeto desenvolvido em dupla na plataforma VTEX IO, utilizando React e Bootstrap, com componentes personalizados criados exclusivamente para este projeto.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={Celdom} alt="Imagem projeto Celdom" className="img-projeto" />
+                                    <a href="https://www.celdom.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
                         <div className="card">
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">

@@ -16,7 +16,10 @@ return(
                <p>Modelo: Híbrido</p>
             </div>
             <div className="col-md-7 d-flex justify-content-center align-items-center">
-               <p className="card-text">Responsável pela criação e manutenção de blogs, sites institucionais, one pages e e-commerces, utilizando HTML5, CSS3, JavaScript, WordPress e Bootstrap com design totalmente responsivo em todos os dispositivos.</p>
+               <p className="card-text">
+               Responsável pela criação e manutenção de blogs, sites institucionais, one pages e e-commerces, desenvolvidos com HTML5, CSS3, JavaScript, react e Bootstrap, garantindo design responsivo em todos os dispositivos. Experiência em plataformas como VTEX, Linx, Magento, Wake Commerce e WordPress.
+               </p>
+
             </div>
          </div>
       </div>
