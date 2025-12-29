@@ -29,7 +29,9 @@ import GHCI from '../../../img/GHCI.png';
 import Stog from '../../../img/stog.png';
 import NatusFarma from '../../../img/natus.png';
 import AbcEmpilhadeiras from '../../../img/abc2.png';   
-import Celdom from '../../../img/celdom.png'; 
+import Celdom from '../../../img/celdom.png';
+import Atlant from '../../../img/atlant.png'; 
+import Paletrans from '../../../img/paletrans.png'; 
 
 function Projects(){
     return(
@@ -38,7 +40,19 @@ function Projects(){
                     <p className="pb-5">Abaixo apresento alguns projetos relevantes desenvolvidos profissionalmente, através de cursos ou de minha própria autoria.</p>
                     <div className="card-box d-flex justify-content-center align-items-center flex-column">
                     <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
-                        <h3>Projetos Profissionais</h3>
+                        <h3 className="text-center w-100">Projetos Profissionais</h3>
+                        <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">Paletrans</h3>
+                                <p>Projeto desenvolvido utilizando o CMS do Wordpress, com HTML, CSS, PHP, jQuery, Bootstrap, tema próprio e plugins personalizados criados exclusivamente para este projeto.</p>
+                                </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={Paletrans} alt="Imagem projeto Celdom" className="img-projeto" />
+                                    <a href="https://paletrans.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
                         <div className="card">
                             <div className=" d-flex flex-row row">
                                 <div className="col-md-5 ">
@@ -48,6 +62,17 @@ function Projects(){
                                 <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
                                     <img src={Celdom} alt="Imagem projeto Celdom" className="img-projeto" />
                                     <a href="https://www.celdom.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
+                                </div>
+                            </div>
+                          </div>
+                          <div className="card">
+                            <div className=" d-flex flex-row row">
+                                <div className="col-md-5 ">
+                                <h3 className="card-title">Atlant Store</h3>
+                                <p>Projeto desenvolvido na plataforma Magento, foi utilizado linguagem de marcação XML juntamente com HTML, CSS, JS e Bootstrap</p>                    </div>
+                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                                    <img src={Atlant} alt="Imagem projeto Atlant Store" className="img-projeto" />
+                                    <a href="https://www.atlantstore.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
                                 </div>
                             </div>
                           </div>
