@@ -2,22 +2,22 @@ import './curriculum.css';
 function Curriculum(){
 return(
 <section className="curriculum">
-   <h2 className="title-curriculum"><i className="fa-solid fa-square"></i> Currículo</h2>
+   <h2 className="title-curriculum"><i className="fa-solid fa-square"></i> Resume</h2>
    <div className="card-box d-flex justify-content-center align-items-center flex-column">
       <div className="card-experiencia top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
-         <h3>Experiências</h3>
+         <h3>Experience</h3>
       <div className="card">
          <div className="row g-0">
             <div className="col-md-5 ">
-               <h3 className="card-title">08/2023 - Atual</h3>
-               <p>DESENVOLVEDORA FRONT-END</p>
+               <h3 className="card-title">08/2023 - Present</h3>
+               <p>FRONT-END DEVELOPER</p>
                <p>Nairuz Marketing e Tecnologia</p>
                <p>Monte Mor</p>
-               <p>Modelo: Híbrido</p>
+               <p>Work model: Hybrid</p>
             </div>
             <div className="col-md-7 d-flex justify-content-center align-items-center">
                <p className="card-text">
-               Responsável pela criação e manutenção de blogs, sites institucionais, one pages e e-commerces, desenvolvidos com HTML5, CSS3, JavaScript, react e Bootstrap, garantindo design responsivo em todos os dispositivos. Experiência em plataformas como VTEX, Linx, Magento, Wake Commerce e WordPress.
+               Responsible for creating and maintaining blogs, institutional websites, landing pages, and e-commerce platforms using HTML5, CSS3, JavaScript, React, and Bootstrap, ensuring responsive design across all devices. Experience with platforms such as VTEX, Linx, Magento, Wake Commerce, and WordPress.
                </p>
 
             </div>
@@ -30,10 +30,12 @@ return(
                <p>CHATBOT DEVELOPER</p>
                <p>Identité Certificação Digital</p>
                <p>Salvador-BA</p>
-               <p>Modelo: Home-Office</p>
+               <p>Work model: Remote</p>
             </div>
             <div className="col-md-7 d-flex justify-content-center align-items-center">
-               <p className="card-text">Análise de fluxo de conversas no chatbot, manutenção de códigos js, auxílio para o atendimento, envio de mensagens ativas no whatsapp ultilizando api da blip e tratamento de dados dos clientes via excel.</p>
+               <p className="card-text">
+               Conversation flow analysis in chatbots, maintenance of JavaScript code, customer service support, proactive WhatsApp messaging using the Blip API, and customer data handling through Excel.
+               </p>
             </div>
          </div>
       </div>
@@ -41,13 +43,15 @@ return(
          <div className="row g-0">
             <div className="col-md-5 ">
                <h3 className="card-title">08/2018 - 08/2022</h3>
-               <p>AUTÔNOMA</p>
-               <p>Mary Collections, Uber e Zé Delivery</p>
-               <p>Campinas-Sp</p>
-               <p>Modelo: Presencial</p>
+               <p>SELF-EMPLOYED</p>
+               <p>Mary Collections, Uber and Zé Delivery</p>
+               <p>Campinas-SP</p>
+               <p>Work model: On-site</p>
             </div>
             <div className="col-md-7 d-flex justify-content-center align-items-center">
-               <p className="card-text">Durante esse período atuei como microempreendedora onde adquiri habilidades de análise crítica de mercado para seleção de produtos, análise de mídias para engajamento de público, além de administração financeira para gestão de recursos e liderança. Também atuei como entregadora e motorista de aplicativo onde adquiri capacidade para gestão de tempo, planejamento e atendimento ao cliente.</p>
+               <p className="card-text">
+               Worked as an entrepreneur, developing market analysis skills for product selection, media analysis for audience engagement, as well as financial management and leadership. Also worked as a delivery driver and ride-share driver, improving time management, planning, and customer service skills.
+               </p>
             </div>
          </div>
       </div>
@@ -55,31 +59,35 @@ return(
          <div className="row g-0">
             <div className="col-md-5 ">
                <h3 className="card-title">05/2015 - 05/2017</h3>
-               <p>Jovem aprendiz</p>
+               <p>APPRENTICE</p>
                <p>Ramsons</p>
-               <p>Manaus-Am</p>
-               <p>Modelo: Presencial</p>
+               <p>Manaus-AM</p>
+               <p>Work model: On-site</p>
             </div>
             <div className="col-md-7 d-flex justify-content-center align-items-center">
-               <p className="card-text">Responsável por análises de compras e pontuação do cliente, análise sistêmica para averiguar possíveis erros em pontuações, atendimento telefônico, ligação para clientes e manipulação de documentação para arquivamento.</p>
+               <p className="card-text">
+               Responsible for purchase and customer score analysis, system checks to verify possible errors, phone support, customer contact, and document handling and filing.
+               </p>
             </div>
          </div>
         </div>
       </div>
 
       <div className="card-formacao top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
-         <h3>Formação</h3>
+         <h3>Education</h3>
       <div className="card">
          <div className="row g-0">
             <div className="col-md-5 ">
                <h3 className="card-title">08/2022 - 06/2025</h3>
-               <p>Sintuação: Concluído</p>
+               <p>Status: Completed</p>
                <p>Universidade Virtual do Estado de São Paulo</p>
-               <p>Bacharelado</p>
-               <p>Piracicaba-Sp</p>
+               <p>Bachelor’s Degree</p>
+               <p>Piracicaba-SP</p>
             </div>
             <div className="col-md-7 d-flex justify-content-center align-items-center">
-               <p className="card-text">Cursando tecnologia da informação na Univesp, localizada em Piracicaba-Sp no modelo EAD, atualmente no 6° semestre do total de 6.  </p>
+               <p className="card-text">
+               Degree in Information Technology at UNIVESP, distance learning model, currently in the final semester (6 of 6).
+               </p>
             </div>
          </div>
         </div>
@@ -91,14 +99,14 @@ return(
             <div className="soft col-md-12 d-flex justify-content-center align-items-center flex-column">
                <h3>Soft Skills</h3>
                <div className="soft-list">
-                  <p><i className="fa-solid fa-square"/> Pensamento crítico</p>
-                  <p><i className="fa-solid fa-square"/> Capacidade de análise</p>
-                  <p><i className="fa-solid fa-square"/> Controle emocional</p>
-                  <p><i className="fa-solid fa-square"/> Comunicação objetiva</p>
-                  <p><i className="fa-solid fa-square"/> Trabalho em equipe</p>
-                  <p><i className="fa-solid fa-square"/> Adaptabilidade e Flexibilidade</p>
-                  <p><i className="fa-solid fa-square"/> Liderança</p>
-                  <p><i className="fa-solid fa-square"/> Empatia</p>
+                  <p><i className="fa-solid fa-square"/> Critical thinking</p>
+                  <p><i className="fa-solid fa-square"/> Analytical skills</p>
+                  <p><i className="fa-solid fa-square"/> Emotional control</p>
+                  <p><i className="fa-solid fa-square"/> Clear communication</p>
+                  <p><i className="fa-solid fa-square"/> Teamwork</p>
+                  <p><i className="fa-solid fa-square"/> Adaptability and flexibility</p>
+                  <p><i className="fa-solid fa-square"/> Leadership</p>
+                  <p><i className="fa-solid fa-square"/> Empathy</p>
                </div>
                
             </div>
@@ -109,16 +117,16 @@ return(
                   <p><i className="fa-solid fa-square"/> React.js</p>
                   <p><i className="fa-solid fa-square"/> JavaScript</p>
                   <p><i className="fa-solid fa-square"/> Bootstrap</p>
-                  <p><i className="fa-solid fa-square"/> Wordpress</p>
-                  <p><i className="fa-solid fa-square"/> Consumo de API</p>
+                  <p><i className="fa-solid fa-square"/> WordPress</p>
+                  <p><i className="fa-solid fa-square"/> API integration</p>
                   <p><i className="fa-solid fa-square"/> MongoDB</p>
-                  <p><i className="fa-solid fa-square"/> Node.JS</p>
+                  <p><i className="fa-solid fa-square"/> Node.js</p>
                </div>
             </div>
             <div className="idiomas col-md-12 d-flex justify-content-center align-items-center flex-column">
-               <h3>Idiomas</h3>
+               <h3>Languages</h3>
                <div className="idiomas-list">            
-                  <p><i className="fa-solid fa-square"/> Inglês - Intermediário (curso em andamento) </p>
+                  <p><i className="fa-solid fa-square"/> English – Intermediate (course in progress) </p>
                </div>
             </div>
          </div>

@@ -1,446 +1,618 @@
 import React from "react";
-import './projects.css';
-import lpMobileFirst from '../../../img/lb-mobile-firts.png';
-import ApiLocal from '../../../img/ApiLocal.png';
-import RequisicoesJS from '../../../img/RequisicoesJS.png';
-import ApiRestExpressMongoDB from '../../../img/ApiRestExpressMongoDB.png';
-import adaLovelace from '../../../img/adalovelace.png';
-import mulheresTech from '../../../img/mulheresTech.png';
-import curriculoSimples from '../../../img/curriculo-simples.png';
-import BlogHectar from '../../../img/BlogHectar.png';
-import BlogRipz from '../../../img/BlogRipz.png';
-import BlogDafyStore from '../../../img/BlogDafyStore.png';
-import VoltVitoria from '../../../img/VoltVitoria.png';
-import LanSayDay from '../../../img/LanSanDay.png';
-import VicioDiPrata from '../../../img/VicioDiPrata.png';
-import ConstrutorURL from '../../../img/ContrutorURL.png';
-import CalculadoraNutri from '../../../img/CalculadoraNutri.png';
-import DomLocalStorage from '../../../img/DomLocalStorage.png'
-import PaginaDinamica from '../../../img/PaginaDinamica.png';
-import MetodosArray from '../../../img/MetodosArray.png';
-import ValidandoFormularios from '../../../img/ValidandoFormularios.png';
-import Valem from '../../../img/valem.png';
-import SantaCruz from '../../../img/santa-cruz.png';
-import VilaNova from '../../../img/vila-nova.png';
-import TheBlushLab from '../../../img/the-blush-lab.png';
-import ClinicaDosCapacetes from '../../../img/clinica-dos-capacetes.png';
-import RDX from '../../../img/rdx.png';
-import GHCI from '../../../img/GHCI.png';
-import Stog from '../../../img/stog.png';
-import NatusFarma from '../../../img/natus.png';
-import AbcEmpilhadeiras from '../../../img/abc2.png';   
-import Celdom from '../../../img/celdom.png';
-import Atlant from '../../../img/atlant.png'; 
-import Paletrans from '../../../img/paletrans.png'; 
+import "./projects.css";
+import lpMobileFirst from "../../../img/lb-mobile-firts.png";
+import ApiLocal from "../../../img/ApiLocal.png";
+import RequisicoesJS from "../../../img/RequisicoesJS.png";
+import ApiRestExpressMongoDB from "../../../img/ApiRestExpressMongoDB.png";
+import adaLovelace from "../../../img/adalovelace.png";
+import mulheresTech from "../../../img/mulheresTech.png";
+import curriculoSimples from "../../../img/curriculo-simples.png";
+import BlogHectar from "../../../img/BlogHectar.png";
+import BlogRipz from "../../../img/BlogRipz.png";
+import BlogDafyStore from "../../../img/BlogDafyStore.png";
+import VoltVitoria from "../../../img/VoltVitoria.png";
+import LanSayDay from "../../../img/LanSanDay.png";
+import VicioDiPrata from "../../../img/VicioDiPrata.png";
+import ConstrutorURL from "../../../img/ContrutorURL.png";
+import CalculadoraNutri from "../../../img/CalculadoraNutri.png";
+import DomLocalStorage from "../../../img/DomLocalStorage.png";
+import PaginaDinamica from "../../../img/PaginaDinamica.png";
+import MetodosArray from "../../../img/MetodosArray.png";
+import ValidandoFormularios from "../../../img/ValidandoFormularios.png";
+import Valem from "../../../img/valem.png";
+import SantaCruz from "../../../img/santa-cruz.png";
+import VilaNova from "../../../img/vila-nova.png";
+import TheBlushLab from "../../../img/the-blush-lab.png";
+import ClinicaDosCapacetes from "../../../img/clinica-dos-capacetes.png";
+import RDX from "../../../img/rdx.png";
+import GHCI from "../../../img/GHCI.png";
+import Stog from "../../../img/stog.png";
+import NatusFarma from "../../../img/natus.png";
+import AbcEmpilhadeiras from "../../../img/abc2.png";
+import Celdom from "../../../img/celdom.png";
+import Atlant from "../../../img/atlant.png";
+import Paletrans from "../../../img/paletrans.png";
 
-function Projects(){
-    return(
-            <section className="projects">
-                    <h2 className="title-projects"><i className="fa-solid fa-square"></i> Projetos</h2>
-                    <p className="pb-5">Abaixo apresento alguns projetos relevantes desenvolvidos profissionalmente, através de cursos ou de minha própria autoria.</p>
-                    <div className="card-box d-flex justify-content-center align-items-center flex-column">
-                    <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
-                        <h3 className="text-center w-100">Projetos Profissionais</h3>
-                        <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Paletrans</h3>
-                                <p>Projeto desenvolvido utilizando o CMS do Wordpress, com HTML, CSS, PHP, jQuery, Bootstrap, tema próprio e plugins personalizados criados exclusivamente para este projeto.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={Paletrans} alt="Imagem projeto Celdom" className="img-projeto" />
-                                    <a href="https://paletrans.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                        <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Celdom</h3>
-                                <p>Projeto desenvolvido em dupla na plataforma VTEX IO, utilizando React e Bootstrap, com componentes personalizados criados exclusivamente para este projeto.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={Celdom} alt="Imagem projeto Celdom" className="img-projeto" />
-                                    <a href="https://www.celdom.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Atlant Store</h3>
-                                <p>Projeto desenvolvido na plataforma Magento, foi utilizado linguagem de marcação XML juntamente com HTML, CSS, JS e Bootstrap</p>                    </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={Atlant} alt="Imagem projeto Atlant Store" className="img-projeto" />
-                                    <a href="https://www.atlantstore.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                        <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">ABC Empilhadeiras</h3>
-                                <p>Com tecnologias como PHP, jQuery e  Bootstrap, criamos uma solução robusta e funcional na plataforma wordpress. Desenvolvido com um tema próprio e código limpo com integração de Ajax para filtros dinâmicos, garantindo uma experiência eficiente e moderna.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={AbcEmpilhadeiras} alt="Imagem projeto ABC Empilhadeiras" className="img-projeto" />
-                                    <a href="https://abcempilhadeiras.com.br" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                        <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Website Stog</h3>
-                                <p>Este projeto foi desenvolvido para a empresa Stog utilizando WordPress. Com tecnologias como PHP, JavaScript, Bootstrap, criamos uma solução robusta e funcional. Desenvolvi com um tema próprio e código limpo com integração de Ajax para filtros dinâmicos, garantindo uma experiência eficiente e moderna.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={Stog} alt="Imagem projeto Stog" className="img-projeto" />
-                                    <a href="https://stog.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                        <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Website e Blog Valem</h3>
-                                <p>Este projeto foi desenvolvido para a empresa Tecfag, utilizando a plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Owl Carousel e Flexbox, para criar uma solução robusta e funcional.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={Valem} alt="Imagem projeto Valem" className="img-projeto" />
-                                    <a href="https://valempack.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                        <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Blog Natus Farma</h3>
-                                <p>Este projeto foi desenvolvido para a empresa Natus Farma, especializada no ramo de farmácia, utilizando a plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Swiper Carrossel e Flexbox, para criar uma solução robusta e funcional.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={NatusFarma} alt="Imagem projeto NatusFarma" className="img-projeto" />
-                                    <a href="https://blog.natusfarma.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
- 
-                        <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Blog Hectar</h3>
-                                <p>Este projeto foi desenvolvido para a empresa Hectar, utilizando um template pré-existente na plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Owl Carousel e Flexbox, para criar uma solução robusta e funcional.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={BlogHectar} alt="Imagem projeto Hectar" className="img-projeto" />
-                                    <a href="https://blog.hectar.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Blog Ripz </h3>
-                                <p>Este projeto foi desenvolvido para a empresa Ripz, utilizando um template pré-existente na plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Owl Carousel e Flexbox, para criar uma solução robusta e funcional.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={BlogRipz} alt="Imagem segundo projeto" className="img-projeto" />
-                                    <a href="https://blog.ripz.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Blog DafyStore </h3>
-                                <p>Este projeto foi desenvolvido para a empresa DafyStore, utilizando um template pré-existente na plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Owl Carousel e Flexbox, para criar uma solução robusta e funcional.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={BlogDafyStore} alt="Imagem segundo projeto" className="img-projeto" />
-                                    <a href="https://blog.dafystore.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">RDX </h3>
-                                <p>Este projeto se trata de uma landing page, foi desenvolvida para a empresa RDX, utilizando a plataforma WordPress. Foram empregadas diversas linguagens, bibliotecas e plugins, incluindo PHP, JavaScript, Bootstrap, Owl Carousel e Flexbox, para criar uma solução robusta e funcional.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={RDX} alt="Imagem DO projeto" className="img-projeto" />
-                                    <a href="https://rdxlog.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Time Esporte Clube Vitória</h3>
-                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={VoltVitoria} alt="Imagem terceiro projeto" className="img-projeto" />
-                                    <a href="https://www.lojasounego.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Time Esporte Clube Santa Cruz</h3>
-                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={SantaCruz} alt="Imagem do projeto" className="img-projeto" />
-                                    <a href="https://www.lojadosantacruz.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Time Esporte Clube Vila Nova</h3>
-                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={VilaNova} alt="Imagem do projeto" className="img-projeto" />
-                                    <a href="https://www.lojadovila.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">GHC Imports</h3>
-                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente, porém com algumas personalizações. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={GHCI} alt="Imagem do projeto" className="img-projeto" />
-                                    <a href="https://www.ehomebrasil.com/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Clínica dos capacetes</h3>
-                                <p>Este projeto foi desenvolvido através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={ClinicaDosCapacetes} alt="Imagem do projeto" className="img-projeto" />
-                                    <a href="https://www.clinicadoscapacetes.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Lan San Day</h3>
-                                <p>Este projeto foi desenvolvido em grupo através da plataforma Linx, a partir de um template existente. Foi utlizado a linguagem liquid juntamente com html, css e JS.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={LanSayDay} alt="Imagem quarto projeto" className="img-projeto" />
-                                    <a href="https://www.lasanday.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Vício DiPrata</h3>
-                                <p>Este projeto foi desenvolvido na plataforma Linx, a partir de um template existente,  foi utlizado a linguagem Liquid juntamente com Html, Css, JS e Bootstrap.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={VicioDiPrata} alt="Imagem quinto projeto" className="img-projeto" />
-                                    <a href="https://www.viciodiprata.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">The Blush Lab</h3>
-                                <p>Este projeto foi desenvolvido na plataforma Linx, a partir de um template existente,  foi utlizado a linguagem Liquid juntamente com Html, Css, JS e Bootstrap.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={TheBlushLab} alt="Imagem do projeto" className="img-projeto" />
-                                    <a href="https://www.theblushlab.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Construtor de URL</h3>
-                                <p>Este projeto foi construído para o time de marketing da empresa Nairuz Marketing Digital e Tecnologia, para que fosse padronizado o processo de criação de URL para campanhas.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={ConstrutorURL} alt="Imagem quarto projeto" className="img-projeto" />
-                                    <a href="https://construtor-de-url.nztecnologia.com.br/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                        
-                        <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
-                        <h3>Projetos de cursos</h3>
-                        <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">LP Mobile First </h3>
-                                <p>Este projeto foi desenvolvido através de um curso, ao qual utilizamos a premissa de desevolver primeiro a tela mobile, foi usando neste projeto a biblioteca js Swiper para construção dos carrosseis, flexbox e Media Queries para tornar responsivo.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={lpMobileFirst} alt="Imagem primeiro projeto" className="img-projeto" />
-                                    <a href="https://lp-mobile-first.vercel.app/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Biografia de Ada Lovelace </h3>
-                                <p>Essa One page foi desenvolvida através do curso programaria, com uso de skills básicas como html, css e js.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={adaLovelace} alt="Imagem segundo projeto" className="img-projeto" />
-                                    <a href="https://vgd15.github.io/Site-Ada-Lovelace//" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Mulheres em Tech</h3>
-                                <p>Este é um projeto Back-End com uso das skills Node.js, Express e MongoDB. O projeto também utiliza CORS para controle de acesso, dotenv para gerenciamento de variáveis de ambiente, e uuid para geração de identificadores únicos.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={mulheresTech} alt="Imagem terceiro projeto" className="img-projeto" />
-                                    <a href="https://front-do-projeto-back-end.vercel.app/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Consumindo API local</h3>
-                                <p>Este é um projeto simples, desenvolvido através do curso da Alura, no qual foi ensinado criar e consumir uma api local.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={ApiLocal} alt="Imagem quinto projeto" className="img-projeto" />
-                                    <a href="https://github.com/vgd15/Consumindo-API-local" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Criando uma Api Rest com Express e MongoDB</h3>
-                                <p>Este projeto utiliza Node.js para criar uma API REST com Express e MongoDB.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={ApiRestExpressMongoDB} alt="Imagem do projeto criando uma api Rest com Express e MongoDB" className="img-projeto" />
-                                    <a href="https://github.com/vgd15/Criando-Api-Rest-com-Express-e-MongoDB" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Criando requisições com JS</h3>
-                                <p>Neste projeto, são feitas requisições utilizando JavaScript para consumir uma API local, empregando funções assíncronas como fetch, além de utilizar loops para processar os dados retornados.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={RequisicoesJS} alt="Imagem do projeto onde é feita requisições em uma API local" className="img-projeto" />
-                                    <a href="https://github.com/vgd15/Criando-requisi-es-com-JS" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Manipulando o DOM e LocalStorage</h3>
-                                <p>
-                                Este projeto foca em aprender a manipular o DOM e usar o LocalStorage com JavaScript, criando páginas dinâmicas e interativas que armazenam dados no navegador.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={DomLocalStorage} alt="Imagem do projeto" className="img-projeto" />
-                                    <a href="https://manipulando-dom-e-local-storage.vercel.app/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Métodos de Array</h3>
-                                <p>
-                                Este projeto foca na prática de métodos de array em JavaScript, como filter, forEach, map, reduce e sort, mostrando como usá-los para manipular e transformar dados de forma eficaz.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={MetodosArray} alt="Imagem do projeto" className="img-projeto" />
-                                    <a href="https://metodos-de-array-zeta.vercel.app/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Validando formulários</h3>
-                                <p>
-                                Projeto focado na validação de formulários essenciais, como e-mail, CPF, idade, data de nascimento, RG e nome. O objetivo é garantir a correta formatação e autenticidade dos dados inseridos, proporcionando segurança e confiabilidade na coleta de informações dos usuários.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={ValidandoFormularios} alt="Imagem do projeto" className="img-projeto" />
-                                    <a href="https://validando-formularios-seven.vercel.app/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Currículo template</h3>
-                                <p>Este é um projeto simples, desenvolvido através do curso da Alura, no qual foi ensinado a criar um portifólio simples,  neste curso utilizei as skills html e css</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={curriculoSimples} alt="Imagem quarto projeto" className="img-projeto" />
-                                    <a href="https://treinando-css-e-html-com-responsividade.vercel.app/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                          <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Página dinâmica</h3>
-                                <p>Neste projeto, são praticadas técnicas para tornar a página mais dinâmica através de funções em JavaScript e interação com sons, aprimorando a experiência do usuário com recursos interativos.</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={PaginaDinamica} alt="Imagem do projeto" className="img-projeto" />
-                                    <a href="https://criando-p-ginas-din-micas-em-js-jn6c.vercel.app/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
-                        <h3>Projetos pessoais</h3>
-                        <div className="card">
-                            <div className=" d-flex flex-row row">
-                                <div className="col-md-5 ">
-                                <h3 className="card-title">Calculadora nutricional </h3>
-                                <p>Projeto no qual se consome uma API que retorna os valores nutricionais dos alimentos, foi desenvolvido em React com uso dos Hooks, somente para Desktop</p>
-                                </div>
-                                <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
-                                    <img src={CalculadoraNutri} alt="Imagem primeiro projeto" className="img-projeto" />
-                                    <a href="https://projeto-final-bees-three.vercel.app/" target="_blank" rel="noreferrer"><div className="overlay-img"></div></a>
-                                </div>
-                            </div>
-                          </div>
-                        </div>
-                    </div>
-                
-            </section>
+function Projects() {
+  return (
+    <section className="projects">
+      <h2 className="title-projects">
+        <i className="fa-solid fa-square"></i> Projects
+      </h2>
+      <p className="pb-5">
+        Below I present some relevant projects developed professionally, through courses, or authored by me.
+      </p>
 
-    );
+      <div className="card-box d-flex justify-content-center align-items-center flex-column">
+        <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
+          <h3 className="text-center w-100">Professional Projects</h3>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Paletrans</h3>
+                <p>
+                  Project developed using WordPress CMS with HTML, CSS, PHP, jQuery, Bootstrap, a custom theme,
+                  and custom plugins created exclusively for this project.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={Paletrans} alt="Paletrans project" className="img-projeto" />
+                <a href="https://paletrans.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Celdom</h3>
+                <p>
+                  Project developed in pairs on the VTEX IO platform using React and Bootstrap, with custom components
+                  created exclusively for this project.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={Celdom} alt="Celdom project" className="img-projeto" />
+                <a href="https://www.celdom.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Atlant Store</h3>
+                <p>Project developed on the Magento platform using XML markup language along with HTML, CSS, JS, and Bootstrap.</p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={Atlant} alt="Atlant Store project" className="img-projeto" />
+                <a href="https://www.atlantstore.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">ABC Empilhadeiras</h3>
+                <p>
+                  Using technologies such as PHP, jQuery, and Bootstrap, we built a robust and functional solution on the WordPress platform.
+                  Developed with a custom theme and clean code, with Ajax integration for dynamic filters, ensuring an efficient and modern experience.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={AbcEmpilhadeiras} alt="ABC Empilhadeiras project" className="img-projeto" />
+                <a href="https://abcempilhadeiras.com.br" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Stog Website</h3>
+                <p>
+                  This project was developed for the company Stog using WordPress. With technologies such as PHP, JavaScript, and Bootstrap,
+                  we created a robust and functional solution. I developed it with a custom theme and clean code, with Ajax integration for dynamic filters,
+                  ensuring an efficient and modern experience.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={Stog} alt="Stog project" className="img-projeto" />
+                <a href="https://stog.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Valem Website and Blog</h3>
+                <p>
+                  This project was developed for the company Tecfag using the WordPress platform. Several languages, libraries, and plugins were used,
+                  including PHP, JavaScript, Bootstrap, Owl Carousel, and Flexbox, to create a robust and functional solution.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={Valem} alt="Valem project" className="img-projeto" />
+                <a href="https://valempack.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Natus Farma Blog</h3>
+                <p>
+                  This project was developed for the company Natus Farma, specialized in the pharmacy sector, using the WordPress platform.
+                  Several languages, libraries, and plugins were used, including PHP, JavaScript, Bootstrap, Swiper Carousel, and Flexbox,
+                  to create a robust and functional solution.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={NatusFarma} alt="Natus Farma project" className="img-projeto" />
+                <a href="https://blog.natusfarma.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Hectar Blog</h3>
+                <p>
+                  This project was developed for the company Hectar using a pre-existing template on the WordPress platform.
+                  Several languages, libraries, and plugins were used, including PHP, JavaScript, Bootstrap, Owl Carousel, and Flexbox,
+                  to create a robust and functional solution.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={BlogHectar} alt="Hectar project" className="img-projeto" />
+                <a href="https://blog.hectar.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Ripz Blog</h3>
+                <p>
+                  This project was developed for the company Ripz using a pre-existing template on the WordPress platform.
+                  Several languages, libraries, and plugins were used, including PHP, JavaScript, Bootstrap, Owl Carousel, and Flexbox,
+                  to create a robust and functional solution.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={BlogRipz} alt="Ripz project" className="img-projeto" />
+                <a href="https://blog.ripz.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">DafyStore Blog</h3>
+                <p>
+                  This project was developed for the company DafyStore using a pre-existing template on the WordPress platform.
+                  Several languages, libraries, and plugins were used, including PHP, JavaScript, Bootstrap, Owl Carousel, and Flexbox,
+                  to create a robust and functional solution.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={BlogDafyStore} alt="DafyStore project" className="img-projeto" />
+                <a href="https://blog.dafystore.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">RDX</h3>
+                <p>
+                  This project is a landing page developed for the company RDX using the WordPress platform. Several languages, libraries, and plugins
+                  were used, including PHP, JavaScript, Bootstrap, Owl Carousel, and Flexbox, to create a robust and functional solution.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={RDX} alt="RDX project" className="img-projeto" />
+                <a href="https://rdxlog.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Esporte Clube Vitória Team</h3>
+                <p>
+                  This project was developed on the Linx platform based on an existing template. The Liquid language was used along with HTML, CSS, and JS.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={VoltVitoria} alt="Esporte Clube Vitória project" className="img-projeto" />
+                <a href="https://www.lojasounego.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Santa Cruz Team</h3>
+                <p>
+                  This project was developed on the Linx platform based on an existing template. The Liquid language was used along with HTML, CSS, and JS.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={SantaCruz} alt="Santa Cruz project" className="img-projeto" />
+                <a href="https://www.lojadosantacruz.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Vila Nova Team</h3>
+                <p>
+                  This project was developed on the Linx platform based on an existing template. The Liquid language was used along with HTML, CSS, and JS.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={VilaNova} alt="Vila Nova project" className="img-projeto" />
+                <a href="https://www.lojadovila.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">GHC Imports</h3>
+                <p>
+                  This project was developed on the Linx platform based on an existing template, but with some customizations.
+                  The Liquid language was used along with HTML, CSS, and JS.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={GHCI} alt="GHC Imports project" className="img-projeto" />
+                <a href="https://www.ehomebrasil.com/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Clínica dos Capacetes</h3>
+                <p>
+                  This project was developed on the Linx platform based on an existing template. The Liquid language was used along with HTML, CSS, and JS.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={ClinicaDosCapacetes} alt="Clínica dos Capacetes project" className="img-projeto" />
+                <a href="https://www.clinicadoscapacetes.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Lan San Day</h3>
+                <p>
+                  This project was developed in a group on the Linx platform based on an existing template. The Liquid language was used along with HTML, CSS, and JS.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={LanSayDay} alt="Lan San Day project" className="img-projeto" />
+                <a href="https://www.lasanday.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Vício DiPrata</h3>
+                <p>This project was developed on the Linx platform based on an existing template. The Liquid language was used along with HTML, CSS, JS, and Bootstrap.</p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={VicioDiPrata} alt="Vício DiPrata project" className="img-projeto" />
+                <a href="https://www.viciodiprata.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">The Blush Lab</h3>
+                <p>This project was developed on the Linx platform based on an existing template. The Liquid language was used along with HTML, CSS, JS, and Bootstrap.</p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={TheBlushLab} alt="The Blush Lab project" className="img-projeto" />
+                <a href="https://www.theblushlab.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">URL Builder</h3>
+                <p>
+                  This project was built for the marketing team at Nairuz Marketing Digital e Tecnologia to standardize the URL creation process for campaigns.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={ConstrutorURL} alt="URL Builder project" className="img-projeto" />
+                <a href="https://construtor-de-url.nztecnologia.com.br/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Course Projects */}
+        <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
+          <h3>Course Projects</h3>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">LP Mobile First</h3>
+                <p>
+                  This project was developed through a course in which we followed the premise of developing the mobile screen first.
+                  In this project, the Swiper JS library was used to build carousels, as well as Flexbox and Media Queries to make it responsive.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={lpMobileFirst} alt="LP Mobile First project" className="img-projeto" />
+                <a href="https://lp-mobile-first.vercel.app/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Ada Lovelace Biography</h3>
+                <p>This one-page website was developed through the Programaria course, using basic skills such as HTML, CSS, and JS.</p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={adaLovelace} alt="Ada Lovelace project" className="img-projeto" />
+                <a href="https://vgd15.github.io/Site-Ada-Lovelace//" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Women in Tech</h3>
+                <p>
+                  This is a back-end project using Node.js, Express, and MongoDB. The project also uses CORS for access control,
+                  dotenv for environment variable management, and uuid for generating unique identifiers.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={mulheresTech} alt="Women in Tech project" className="img-projeto" />
+                <a href="https://front-do-projeto-back-end.vercel.app/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Consuming a Local API</h3>
+                <p>This is a simple project developed through an Alura course, where we learned how to create and consume a local API.</p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={ApiLocal} alt="Local API project" className="img-projeto" />
+                <a href="https://github.com/vgd15/Consumindo-API-local" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Creating a REST API with Express and MongoDB</h3>
+                <p>This project uses Node.js to create a REST API with Express and MongoDB.</p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={ApiRestExpressMongoDB} alt="Express and MongoDB API project" className="img-projeto" />
+                <a href="https://github.com/vgd15/Criando-Api-Rest-com-Express-e-MongoDB" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Making Requests with JS</h3>
+                <p>
+                  In this project, requests are made using JavaScript to consume a local API, using asynchronous functions such as fetch,
+                  and loops to process the returned data.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={RequisicoesJS} alt="JavaScript requests project" className="img-projeto" />
+                <a href="https://github.com/vgd15/Criando-requisi-es-com-JS" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Manipulating the DOM and LocalStorage</h3>
+                <p>
+                  This project focuses on learning how to manipulate the DOM and use LocalStorage with JavaScript, creating dynamic and interactive pages
+                  that store data in the browser.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={DomLocalStorage} alt="DOM and LocalStorage project" className="img-projeto" />
+                <a href="https://manipulando-dom-e-local-storage.vercel.app/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Array Methods</h3>
+                <p>
+                  This project focuses on practicing JavaScript array methods such as filter, forEach, map, reduce, and sort, showing how to use them to
+                  manipulate and transform data effectively.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={MetodosArray} alt="Array methods project" className="img-projeto" />
+                <a href="https://metodos-de-array-zeta.vercel.app/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Form Validation</h3>
+                <p>
+                  Project focused on validating essential forms such as email, CPF, age, date of birth, RG, and name. The goal is to ensure correct
+                  formatting and authenticity of the entered data, providing security and reliability when collecting user information.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={ValidandoFormularios} alt="Form validation project" className="img-projeto" />
+                <a href="https://validando-formularios-seven.vercel.app/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Resume Template</h3>
+                <p>This is a simple project developed through an Alura course, where we learned how to create a simple portfolio. In this course, I used HTML and CSS skills.</p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={curriculoSimples} alt="Resume template project" className="img-projeto" />
+                <a href="https://treinando-css-e-html-com-responsividade.vercel.app/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Dynamic Page</h3>
+                <p>
+                  In this project, techniques are practiced to make the page more dynamic through JavaScript functions and sound interactions,
+                  improving the user experience with interactive features.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={PaginaDinamica} alt="Dynamic page project" className="img-projeto" />
+                <a href="https://criando-p-ginas-din-micas-em-js-jn6c.vercel.app/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Personal Projects */}
+        <div className="card-projects top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
+          <h3>Personal Projects</h3>
+
+          <div className="card">
+            <div className="d-flex flex-row row">
+              <div className="col-md-5">
+                <h3 className="card-title">Nutrition Calculator</h3>
+                <p>
+                  Project that consumes an API which returns the nutritional values of foods. It was developed in React using Hooks, desktop only.
+                </p>
+              </div>
+              <div className="img-card col-md-7 d-flex justify-content-center align-items-center flex-column">
+                <img src={CalculadoraNutri} alt="Nutrition calculator project" className="img-projeto" />
+                <a href="https://projeto-final-bees-three.vercel.app/" target="_blank" rel="noreferrer">
+                  <div className="overlay-img"></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Projects; 
+export default Projects;

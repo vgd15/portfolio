@@ -18,7 +18,7 @@ function Header(props) {
                 <div className="d-flex flex-row gap-3 justify-content-center align-items-center">
                     <h2 className="name"><i className="fa-solid fa-square"></i> <a href="/">{props.profileName}</a></h2>
                     <span>|</span>
-                    <h3 className="profession">Desenvolvedora Front-End</h3>
+                    <h3 className="profession">Front-End Developer</h3>
                 </div>
                 <div className="links-button">
                     <ul className="d-flex justify-content-between align-items-center gap-3">
@@ -56,17 +56,19 @@ function Header(props) {
                     <div className="nome d-flex flex-row gap-3 justify-content-space-between align-items-center">
                         <h2 className="name d-flex row flex-row"><a href="/"><i className="fa-solid fa-square"></i> {props.profileName}</a></h2>
                         <span>|</span>
-                        <h3 className="profession">Desenvolvedora Front-End</h3>
+                        <h3 className="profession">Front-End Developer</h3>
                     </div>
                     <div className="d-flex flex-row gap-3 justify-content-start align-items-center">
-                        <button onClick={handleClick} className="p-0"><img src={sidebarMenu} className="sidebar-mobile " alt="Menu mobile" /></button>
+                        <button onClick={handleClick} className="p-0">
+                            <img src={sidebarMenu} className="sidebar-mobile " alt="Mobile menu" />
+                        </button>
                     </div>
                 </div>
 
                 <div className="sidebar-menu">
-                    <div class="close d-flex justify-content-start align-items-center">
+                    <div className="close d-flex justify-content-start align-items-center">
                             <button onClick={handleClick} className="close-button">
-                            <img src={Closer} alt="fechar sidebar"></img>
+                                <img src={Closer} alt="Close sidebar" />
                             </button>
                     </div>
                     <ul className="d-flex justify-content-between align-items-center flex-column">
@@ -91,7 +93,7 @@ function Header(props) {
                             </Link>
                         </li>
                         <li>
-                            <Link to="contact">
+                            <Link to="/contact">
                                 <button onClick={handleClick}> Contact </button>
                             </Link>
                         </li>
