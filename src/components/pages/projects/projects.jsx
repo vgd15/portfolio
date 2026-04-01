@@ -121,7 +121,7 @@ function Projects() {
               <div className="col-md-5">
                 <h3 className="card-title">Stog Website</h3>
                 <p>
-                  This project was developed for the company Stog using WordPress. With technologies such as PHP, JavaScript, and Bootstrap,
+                  This project was developed using WordPress. With technologies such as PHP, JavaScript, and Bootstrap,
                   we created a robust and functional solution. I developed it with a custom theme and clean code, with Ajax integration for dynamic filters,
                   ensuring an efficient and modern experience.
                 </p>
