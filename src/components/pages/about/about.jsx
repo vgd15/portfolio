@@ -29,7 +29,7 @@ function About(){
 
                     <div className="box-text col-md-4 col-12">
                         <h2 className="salutation"><strong>Hello, welcome</strong></h2>
-                        <span>My profile and my projects</span>
+                        <span>My profile and my projects </span>
                         <div className="button-list">
                             <ul className="d-flex flex-row gap-2 gap-md-3 justify-content-center align-items-center flex-wrap">
                                 <li><a href="/curriculum" className="btn btn-primary curriculo">RESUME</a></li>
