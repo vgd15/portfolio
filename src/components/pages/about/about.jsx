@@ -48,7 +48,7 @@ function About(){
 
                         From March to August 2023, I worked with ChatBot maintenance, analysis, and development.
 
-                        From 2023 to the present, I have been working as a Front-End Developer at Nairuz.
+                        From 2023 to the present, I have been working as a Front-End Developer.
                         </p>
                     </div>
                     
