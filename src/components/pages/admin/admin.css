@@ -1,0 +1,165 @@
+.admin-container {
+  max-width: 560px;
+  margin: 64px auto;
+  padding: 40px 36px;
+  background: #0b0b0c;
+  color: #e8e8e8;
+  border: 1px solid rgba(164, 255, 247, 0.12);
+  border-radius: 12px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.55);
+  font-family: inherit;
+}
+
+.admin-container h2 {
+  margin: 0 0 28px;
+  padding-bottom: 18px;
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-align: left;
+  color: var(--color-primary);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.admin-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.admin-form label {
+  margin-top: 14px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: left;
+  color: rgba(232, 232, 232, 0.6);
+}
+
+.admin-form input,
+.admin-form textarea,
+.admin-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  color: #f2f2f2;
+  background: #141415;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.admin-form input:hover,
+.admin-form textarea:hover,
+.admin-form select:hover {
+  border-color: rgba(255, 255, 255, 0.22);
+}
+
+.admin-form input:focus,
+.admin-form textarea:focus,
+.admin-form select:focus {
+  background: #171718;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(164, 255, 247, 0.12);
+}
+
+.admin-form textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.5;
+}
+
+.admin-form select {
+  appearance: none;
+  cursor: pointer;
+  padding-right: 40px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8' fill='none'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23a4fff7' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+}
+
+/* Input de arquivo */
+.admin-form input[type="file"] {
+  padding: 8px;
+  color: rgba(232, 232, 232, 0.6);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.admin-form input[type="file"]::file-selector-button {
+  margin-right: 14px;
+  padding: 8px 16px;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--color-primary);
+  background: transparent;
+  border: 1px solid rgba(164, 255, 247, 0.4);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.admin-form input[type="file"]::file-selector-button:hover {
+  background: rgba(164, 255, 247, 0.08);
+  border-color: var(--color-primary);
+}
+
+/* Botão principal */
+.admin-form button {
+  margin-top: 28px;
+  padding: 14px;
+  font-family: inherit;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--color-third);
+  background: var(--color-primary);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.admin-form button:hover {
+  filter: brightness(1.06);
+  box-shadow: 0 8px 24px rgba(164, 255, 247, 0.22);
+  transform: translateY(-1px);
+}
+
+.admin-form button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+.admin-form button:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
+/* Mensagem de feedback */
+.mensagem {
+  margin: 0 0 8px;
+  padding: 12px 16px;
+  font-size: 0.88rem;
+  text-align: left;
+  color: var(--color-primary);
+  background: rgba(0, 82, 39, 0.28);
+  border: 1px solid rgba(164, 255, 247, 0.2);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 6px;
+}
+
+@media (max-width: 600px) {
+  .admin-container {
+    margin: 24px 16px;
+    padding: 28px 20px;
+  }
+}

@@ -6,10 +6,26 @@ return(
    <div className="card-box d-flex justify-content-center align-items-center flex-column">
       <div className="card-experiencia top-card d-flex justify-content-center align-items-start flex-column gap-4 ">
          <h3>Experience</h3>
+               <div className="card">
+         <div className="row g-0">
+            <div className="col-md-5 ">
+               <h3 className="card-title">12/2025 - Present</h3>
+               <p>FRONT-END DEVELOPER</p>
+               <p>Pysá Digital</p>
+               <p>Campinas-SP</p>
+               <p>Work model: Remoto</p>
+            </div>
+            <div className="col-md-7 d-flex justify-content-center align-items-center">
+               <p className="card-text">
+               From leading client meetings and gathering requirements to the final launch, I manage the entire project lifecycle. I build blogs, institutional websites, high-converting landing pages, and e-commerce platforms using HTML5, CSS3, JavaScript, React, and Bootstrap. I also provide ongoing support, handling maintenance, updates, and continuous improvements across all websites. Experienced in developing on platforms such as VTEX, Linx, Magento, Wake Commerce, and WordPress.
+               </p>
+            </div>
+         </div>
+      </div>
       <div className="card">
          <div className="row g-0">
             <div className="col-md-5 ">
-               <h3 className="card-title">08/2023 - Present</h3>
+               <h3 className="card-title">08/2023 - 12/2025</h3>
                <p>FRONT-END DEVELOPER</p>
                <p>Nairuz Marketing e Tecnologia</p>
                <p>Monte Mor</p>
